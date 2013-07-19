@@ -72,6 +72,7 @@ else
 end
 
 group :production do
+  gem 'activerecord-postgresql-adapter'
   gem 'pg'
   gem "activerecord-jdbcpostgresql-adapter"
   gem 'activerecord-jdbcmysql-adapter'
