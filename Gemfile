@@ -74,6 +74,8 @@ end
 group :production do
   gem 'thin'
   gem 'pg'
+  gem 'activerecord-jdbcmysql-adapter'
+  gem 'mysql2', "~> 0.3.11"
 end
 
 group :development do
