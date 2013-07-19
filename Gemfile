@@ -71,6 +71,11 @@ else
   warn("Please configure your config/database.yml first")
 end
 
+group :production do
+  gem 'thin'
+  gem 'pg'
+end
+
 group :development do
   gem "rdoc", ">= 2.4.2"
   gem "yard"
