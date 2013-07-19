@@ -75,7 +75,7 @@ group :production do
   gem 'activerecord-postgresql-adapter'
   gem 'pg'
   # gem "activerecord-jdbcpostgresql-adapter"
-  # gem 'activerecord-jdbcmysql-adapter'
+  gem 'activerecord-jdbcmysql-adapter'
   gem 'mysql2', "~> 0.3.11"
 end
 
