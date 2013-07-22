@@ -10,5 +10,12 @@ require File.expand_path('../application', __FILE__)
 #   exit 1
 # end
 
+# config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+#config.action_mailer.delivery_method = :smtp
+
+
+app_env_vars = File.join(Rails.root, 'config', 'initializers', 'app_env_vars.rb')
+load(app_env_vars) if File.exists?(app_env_vars)
 # Initialize the rails application
 RedmineApp::Application.initialize!
+

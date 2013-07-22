@@ -81,16 +81,17 @@
 # default configuration options for all environments
 default:
   # Outgoing emails configuration (see examples above)
-  email_delivery:
-    delivery_method: :smtp
-    smtp_settings:
-      enable_starttls_auto: true
-      address: smtp.gmail.com
-      port: 25
-      domain: intuzion.com
-      authentication: :plain
-      user_name: "no-reply@intuzion.com"
-      password: "noreply1234"
+  # email_delivery:
+  #   delivery_method: :smtp
+    # smtp_settings:
+    #   enable_starttls_auto: true
+    #   address: smtp.gmail.com
+    #   port: 25
+    #   domain: intuzion.com
+    #   authentication: :plain
+    #   user_name: ENV['EMAIL']
+    #   password: ENV['PASSWORD']
+
 
   # Absolute path to the directory where attachments are stored.
   # The default is the 'files' directory in your Redmine instance.

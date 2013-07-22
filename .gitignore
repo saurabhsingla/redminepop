@@ -31,4 +31,4 @@
 /.bundle
 /Gemfile.lock
 /Gemfile.local
-
+/config/initializers/app_env_vars.rb
