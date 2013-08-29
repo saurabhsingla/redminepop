@@ -5,7 +5,7 @@
 
 production:
   adapter: mysql2
-  database: redmine
+  database: redminepop
   # host: localhost
   username: root
   password:
@@ -16,7 +16,7 @@ production:
 
 development:
   adapter: mysql2
-  database: redmine_development
+  database: redminepop_development
   # host: localhost
   username: root
   reconnect: false
@@ -30,7 +30,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   adapter: mysql2
-  database: redmine_test
+  database: redminepop_test
   # host: localhost
   username: root
   password: 
